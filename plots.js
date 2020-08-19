@@ -62,11 +62,6 @@ function buildCharts(sample) {
         yaxis: {
           
           autorange: 'reversed'
-        },
-        xaxis: {
-          title: {
-            text: 'OTU_ID'
-          }
         }
       };
   
