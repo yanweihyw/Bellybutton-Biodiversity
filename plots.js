@@ -46,7 +46,7 @@ function buildCharts(sample) {
         {
           type: 'bar',
           x: sample_values.slice(0, 10),
-          y: otu_ids.slice(0, 10).map(spieceid => 'OTU ' + spieceid + ' '),
+          y: otu_ids.slice(0, 10).map(spieceid => 'OTU ' + spieceid),
           orientation: 'h',
           text: otu_labels.slice(0, 10)
         }
@@ -56,7 +56,7 @@ function buildCharts(sample) {
         title: {
           text: 'Top 10 bacterial species',
           font: {
-            size: 24
+            size: 20
           }
         },
         yaxis: {
@@ -89,7 +89,7 @@ function buildCharts(sample) {
         title: {
           text: 'Bacterial Species',
           font: {
-            size: 24
+            size: 20
           }
         },
         xaxis: {
